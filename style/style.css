@@ -283,16 +283,15 @@ header,
 
 #email {
   padding: 8px 20px 8px 20px;
-  max-width: 650px;
+  border: none;
 }
-.join-button {
-  max-width: 190px;
-}
+
 .join-container {
   width: 70%;
 }
 .input-form {
   width: 100%;
+  /* max-width:840px; */
   margin-top: 23px;
   display: grid;
   grid-template-columns: 70% 30%;
@@ -300,10 +299,6 @@ header,
 .join-title {
   color: white;
 }
-.form-container {
-  margin: 0 auto;
-}
-/* footer related style */
 footer {
   max-width: 1120px;
   margin: 50px auto;
