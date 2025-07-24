@@ -328,7 +328,11 @@ footer {
   .nav-item1,
   .nav-item2,
   .nav-item3 {
-    display: none;
+   display: none;
+    
+  }
+  .nav-items{
+    gap: 0px;
   }
   .banner {
     flex-direction: column-reverse;
