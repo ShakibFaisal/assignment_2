@@ -193,6 +193,15 @@ header,
   position: relative;
   left: 350px;
   bottom: 720px;
+  animation: spin 3s linear infinite;
+}
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 .l-p {
   margin-left: 40px;
